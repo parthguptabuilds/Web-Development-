@@ -1,0 +1,41 @@
+.box {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:20px;
+    justify-content:space-evenly;
+    width: 400px;
+    height: 250px;
+    margin: 20px ;
+    padding: 16px;
+    border: 2px solid #315a7d;
+    border-radius:30px;
+    
+}
+
+.box a {
+    box-sizing: border-box;
+    align-items:2px;
+    border-radius:30px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #6c9bc2;
+    background-color: #d6eaff;
+    color: #17324d;
+}
+
+nav{
+    border:2px solid black;
+    margin:2px;
+    padding:10px;
+}
+
+nav a{
+    color:black;
+    display:inline-block;
+    
+    
+}
+
+footer p {
+    font-size: 12px;
+}

@@ -1,0 +1,11 @@
+form{
+    border:3px solid black;
+    width:30rem;
+    background-color:lightblue;
+    padding:10px;
+}
+
+#submit{
+    margin-right:30rem;
+
+}

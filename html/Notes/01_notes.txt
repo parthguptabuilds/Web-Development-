@@ -1,0 +1,24 @@
+HTML Basic Notes
+
+HTML (HyperText Markup Language) is used to create webpages.
+
+<html> → Root tag (contains the whole webpage)
+Opening Tag → Example: <p>
+Closing Tag → Example: </p>
+<!DOCTYPE html> → Tells the browser that the document is HTML5
+<head> → Contains webpage information
+<meta charset="UTF-8"> → Defines character encoding
+<meta name="viewport"> → Makes the webpage fit different screen sizes
+<title> → Sets the title shown in the browser tab
+<body> → Contains all visible content of the webpage
+
+Common Tags
+
+<p> → Used for paragraphs
+<h1> to <h6> → Used for headings
+<a href=""> → Used to create links
+href → Attribute that stores the link address
+
+Attribute
+
+An attribute provides extra information about a tag and defines its characteristics.

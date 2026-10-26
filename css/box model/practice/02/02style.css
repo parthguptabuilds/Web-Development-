@@ -1,0 +1,18 @@
+.boxmodel {
+    border: 1.5px solid rgb(162, 30, 112);
+    margin-bottom: 10px; /* Adjust this value to set the exact gap */
+    margin-top: 1px;
+    margin-left: 10px;
+    padding: 2px;
+    width: 20em;
+    background-color: aqua;
+}
+
+.boxmodel2 {
+    border: 1.5px solid rgb(39, 24, 106);
+    margin-top: 0;       /* Set to 0 so margin-bottom above controls the entire gap */
+    margin-left: 10px;
+    padding: 2px;
+    width: 20em;
+    background-color: rgb(140, 255, 0);
+}

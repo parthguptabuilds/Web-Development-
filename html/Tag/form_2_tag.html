@@ -1,0 +1,62 @@
+<!-- 
+<label>: An HTML tag that defines a text caption or description for an interactive form element like an input, checkbox, or radio button.
+"for" attribute: An attribute used inside <label> that explicitly connects the label to a form element by matching that element's unique id, making the control accessible and clickable via its text. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Tag</title>
+</head>
+
+<body>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="UserName" placeholder="Name"><br><br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" autocomplete="off" placeholder="Email"><br><br>
+
+        <label for="date">Date</label>
+        <input type="date" id="date"><br><br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="Age" placeholder="Age"><br><br>
+
+        <label>Gender</label>
+        <input type="radio" value="male" id="male" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" value="female" id="female" name="gender">
+        <label for="female">Female</label> <br><br>
+
+        Technology:
+        <label for="html">HTML</label>
+        <input type="checkbox" id="html" value="html" name="Technology">
+        <label for="css">CSS</label>
+        <input type="checkbox" id="css" value="css" name="Technology">
+        <label for="Js">JS</label>
+        <input type="checkbox" id="Js" value="Java Script" name="Technology">
+        <br><br>
+
+        <label for="adress">Adress</label>
+        <textarea name="Address" id="adress" rows="4" cols="9" placeholder="Enter Your Address here"></textarea><br><br>
+
+        <label for="country">Select your country</label>
+
+        <select name="country" id="country" placeholder="Country">
+            <option>India</option>
+            <option>U.S</option>
+        </select><br><br>
+
+        <input type="button" value="click me">
+        <input type="submit">
+        <input type="reset"><br><br>
+
+    </form>
+
+</body>
+
+</html>

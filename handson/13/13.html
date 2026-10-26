@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validated Registration Form</title>
+    <link rel="stylesheet" href="13.css">
+</head>
+
+<body     style="background-color:rgb(149, 178, 190);">
+    <div class="box">
+    <h1>Validated Registration from</h1>
+    <form>
+        <label for="name">Name:-</label>
+        <input type="text" id="name" name="Username"minlength="3"maxlength="20" required placeholder="Name"><br><br>
+        <label for="email">Email:-</label>
+        <input type="email" id="email" name="Email" autocomplete="off" required placeholder="Email"><br><br>
+        <label for="age">Age:-</label>
+        <input id="age" type="number" name="Age" min="18" max="100" required placeholder="Age"> <br><br>
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website" placeholder="https://mywebsite.com"required><br><br>
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required placeholder="Password"minlength="8" maxlength="32">
+        <input type="submit">
+
+
+    </form>
+</div>
+</body>
+
+</html>

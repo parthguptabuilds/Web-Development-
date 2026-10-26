@@ -1,0 +1,35 @@
+.box{   
+    width: 20em;
+    padding:20px;
+    height:40px;
+}
+
+.model{
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color:green;
+    z-index:1;
+}
+
+.model2 {
+    position:absolute;
+    background-color:red;
+    top:40px;
+    left:40px;
+    z-index:2;
+}
+.model3{
+    position:absolute;
+    
+    background-color:blue;
+        top:70px;
+        left:70px
+}
+.model4 {
+    position:absolute;
+    
+    background-color:black;
+        top:100px;
+        left:100px
+}

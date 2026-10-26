@@ -1,0 +1,9 @@
+/* Relative units calculate their rendered size in relation to 
+another property, making them the standard choice for responsive 
+and accessible web layouts. */
+
+.head{
+
+    font-size:2rem;
+
+}

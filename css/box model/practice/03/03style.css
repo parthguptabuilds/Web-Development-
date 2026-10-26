@@ -1,0 +1,31 @@
+/* PARENT BOX */
+.course-card{
+    border:2px solid black;
+    width:200px;
+    padding:20px;
+
+}
+/* CHILD BOX */
+.sub-course{
+    border:2px solid rgb(255, 2, 171);
+    width:90%;
+    max-width:100px;
+    padding:20px;
+}
+
+.box{
+    border:3px solid black;
+    width:30rem;
+    padding:20px;
+
+}
+
+.content {
+  box-sizing: content-box;
+  margin-bottom: 20px; 
+}
+
+.border {
+  box-sizing: border-box;
+  margin-bottom: 20px; 
+}
