@@ -46,14 +46,20 @@ main {
     padding: 20px;
     flex-wrap: wrap;
 }
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+
+}
+
 .load {
     width: 50px;                 
     height: 50px;                
     display: inline-block;       
     border: 5px solid #f3f3f3;  
-    border-top: 5px solid blue; 
+    border-top: 5px solid rgb(183, 29, 126); 
     border-radius: 50%;          
-    align-items:center;
     animation: load 1s linear infinite;
 }
 .samsung:hover{
@@ -144,9 +150,4 @@ main {
         width: 90%;
         margin: 0 auto;
     }
-
-    /* .samsung img, .apple img{
-
-    } */
-
 }
