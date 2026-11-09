@@ -1,5 +1,4 @@
 age = 21
-
 let result=(age>=18)? "Allowed":"Not Allowed"
 console.log(result)
 
@@ -21,3 +20,4 @@ switch(time){
         default:
             console.log("Invalid Show")
 }
+
