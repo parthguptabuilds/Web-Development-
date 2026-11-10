@@ -1,4 +1,4 @@
-let name="Parth"
+let my_name="Parth"
 
-console.log(name)
-console.log(name.length)
+console.log(my_name)
+console.log(my_name.length)
