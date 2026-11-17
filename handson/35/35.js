@@ -2,4 +2,5 @@
     return numb *numb
  }
 
- console.log(squareNumber(3))
+ result=squareNumber(4)
+ console.log(result)
