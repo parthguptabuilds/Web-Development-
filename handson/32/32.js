@@ -13,7 +13,7 @@ console.log(student2)
 
 
 let student3=new Object()
-student3.name="anu baby"
+student3.name="anu"
 student3.roll=22222
 student3.marks=2222
 console.log(student3)
