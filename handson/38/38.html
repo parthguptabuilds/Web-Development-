@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+
+<body>
+    <img src="https://picsum.org/800/600.jpg?category=marine" alt="photo">
+    <h1 id="title">Welcome</h1>
+    <p class="para">ababjbabck <span>absbabdjajbdjb</span>aahejfefeanfja</p>
+
+    <script>
+        document.querySelector("#title").textContent = "hello";
+
+        document.querySelector("img").src = "https://picsum.org/800/600.jpg?category=birds";
+
+        let paraa = document.querySelector(".para").style.color = "red";
+
+        let _span = document.querySelector("span").style.fontSize = "25px".style.backgroundColor = "yellow"; 
+    </script>
+
+</body>
+
+</html>
