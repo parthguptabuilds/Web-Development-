@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+</head>
+<body>
+
+  <button id="add">Add Task</button>
+  <button id="highlight">Highlight Task</button>
+  <button id="remove">Remove Task</button>
+
+  <div id="container"></div>
+
+  <script>
+    const container = document.getElementById("container");
+    document.getElementById("add").addEventListener("click", () => {
+      const task = document.createElement("p");
+      task.textContent = "New Task";
+      container.appendChild(task);
+    });
+
+    document.getElementById("highlight").addEventListener("click", () => {
+      const task = document.querySelector("p");
+      task.textContent = "Highlighted Task";
+      task.style.backgroundColor = "yellow";
+      task.classList.add("highlight");
+    });
+
+    
+    document.getElementById("remove").addEventListener("click", () => {
+      const task = document.querySelector("p");
+      task.remove();
+    });
+  </script>
+
+</body>
+</html>
