@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        .highlight {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <p id="text" class="highlight">Hello</p>
+    <button onclick="removeClass()">Remove Class</button>
+    <script>
+        function removeClass() {
+            document.getElementById("text").classList.remove("highlight");
+        }
+    </script>
+</body>
+
+</html>
