@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        #box{
+            background-color:red;
+            border:3px solid black;
+            width:190px;
+            height:100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="box">
+    </div>
+    <button id="btn">Click me</button>
+
+    <script>
+        document.getElementById("btn").onclick=function(){
+            box.style.backgroundColor="blue"
+            box.style.width="30px";
+        }
+    </script>
+</body>
+
+</html>
