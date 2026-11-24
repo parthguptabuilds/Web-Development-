@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+
+        #parent{
+            display:flex;
+        }
+        #box1, #box2, #box3, #box4 {
+            border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        #over{
+            border:1px solid black;
+            width:50px;
+            height:30px;
+        }
+        #move{
+            border:1px solid black;
+            width:50px;
+            height:30px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+    <div id="box1">click
+        <button  id="btn1">Click Me</button>
+    </div>
+    <div id="box2">dblclick
+        <button id="btn2">Click Me</button>
+    </div>
+    <div id="box3">mouseover
+        <div id="over"></div>
+    </div>
+    <div id="box4">mousemove
+        <div id="move"></div>
+    </div>
+    </div>
+
+    <script>
+        document.getElementById("btn1").addEventListener("click",function(){
+            box1.style.backgroundColor="red"
+        })
+        document.getElementById("btn2").addEventListener("dblclick",function(){
+            box2.style.backgroundColor="green"
+        })
+         document.getElementById("over").addEventListener("mouseover",function(){
+            box3.style.backgroundColor="yellow"
+        })
+        document.getElementById("move").addEventListener("mousemove",function(){
+            box4.style.backgroundColor="yellow"
+        })
+    </script>
+</body>
+</html>
