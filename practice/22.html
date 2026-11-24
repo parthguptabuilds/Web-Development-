@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Multiple Event Handlers</title>
+</head>
+
+<body>
+
+    <button id="btn">Click Me</button>
+    <script>
+        document.getElementById("btn").addEventListener("click", () => {
+            console.log("First handler executed");
+        }).addEventListener("click", () => {
+            console.log("Second handler executed");
+        });
+    </script>
+
+</body>
+
+</html>
