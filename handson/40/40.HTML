@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task Manager</title>
+  <style>
+    #box{
+        width:300px;
+        height:100px;
+        border:3px solid black;
+        background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+    <button id="button">Click Me</button>
+    <div id="box">
+
+    </div>
+    <input type="text" id="text" placeholder="text">
+    <script>
+        document.querySelector("#button").onclick=function(){
+            alert("Helloo")
+        }
+
+        document.getElementById("box").addEventListener("click",function(){
+            console.log(event.key,"gg")
+        })
+
+        document.getElementById("box").addEventListener("mouseover",function(){
+            box.style.backgroundColor="red"
+        })
+
+        document.getElementById("text").addEventListener("keydown",function(){
+            console.log("key",e.key)
+            document.getElementById("text").textContent="key"+e.key
+
+        }).textContent="key"+e.key
+    </script>
+
+</body>
+</html>
